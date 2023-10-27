@@ -1,6 +1,5 @@
 // simple geometric approach assuming zero twists and offsets, neglecting ee orientation
 
-#include <iostream>
 #include <cmath>
 
 JointAngles calculateInverseKinematics(const LinkLengths& linkLengths, const EndEffectorPosition& position) {
